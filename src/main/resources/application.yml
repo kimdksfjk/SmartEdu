@@ -10,9 +10,9 @@ server:
 spring:
     datasource:
         driverClassName: com.mysql.cj.jdbc.Driver
-        url: jdbc:mysql://47.111.15.15:3306/edu_system?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false
+        url: jdbc:mysql://127.0.0.1:3306/edu_system?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false
         username: root
-        password: zhenghanyu
+        password: ${DB_PASSWORD:}
 
     mail:
       host: smtp.qq.com

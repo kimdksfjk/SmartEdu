@@ -8,9 +8,9 @@
 		<version>2.2.2.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.jlwl</groupId>
+	<groupId>com.csu</groupId>
 	<!-- 导入项目的名称 -->
-	<artifactId>springbootsagm21hd</artifactId>
+	<artifactId>SmartEdu</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springboot-schema</name>
 	<description>springboot学习框架</description>
